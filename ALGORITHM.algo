@@ -1,0 +1,17 @@
+ALGORITHM read a sentence
+VAR
+    ph : CHAR;
+    length : INTEGER; //length of the sentence//
+    word : INTEGER; //the  number of words in the sentence//
+    numVOW : INTEGER; //numVOW is the number of the vowels in the sentence//
+    
+BEGIN
+    length_counter +=1;
+    IF (CHAR in "aeiouAEIOU") THEN
+        numVOY_counter +=1
+    END_IF
+    IF (CHAR ==".") THEN
+        word_counter +=1
+    END_IF
+BREAK
+END
